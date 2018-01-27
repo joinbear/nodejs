@@ -1,0 +1,15 @@
+{
+  "name": "grouth-node-canvas",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qiaoni",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.0.0-alpha.5",
+    "express": "^4.16.1"
+  }
+}

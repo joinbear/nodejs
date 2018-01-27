@@ -1,0 +1,11 @@
+convert -size 1080x2004 xc:white -fill none -stroke white  \
+-draw "image over 0,0 0,0 './images/marker.png'"  \
+-draw "image over 51,902 250,250 './images/test1.jpg'"  \
+-draw "circle 176,1027 87,939" \
+-pointsize 40 \
+-draw "text 110,1220 'join' "  \
+-pointsize 180 \
+-draw "text 480,1290 '2011' "  \
+
+
+convert bigWiz.png -alpha on \( +clone -threshold -1 -negate -fill white -draw "circle 539,539 539,0" \) -compose copy_opacity -composite output_circ.png
